@@ -1,0 +1,10 @@
+{
+    "requires": [ "bare-metal" ],
+    "target_overrides": {
+        "*": {
+	    "platform.minimal-printf-enable-floating-point": true,
+        "target.lse_available": 0,
+        "target.components_add": ["I2CEE"]
+	}
+    }
+}
